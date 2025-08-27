@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>Positioning and Opacity</title>
+    <style>
+        div {
+            right: 35px;
+            border: 3px solid black;
+        }
+        
+        div.absolute {
+            position: absolute;
+            left: 50px;
+            border: 3px solid rgb(68, 33, 88);
+        }
+        
+        div.relative {
+            position: relative;
+            left: 100px;
+            border: 3px solid cyan;
+        }
+        
+        div.fixed {
+            position: fixed;
+            right: 20px;
+            border: 3px solid rgb(252, 73, 73);
+            top: 0;
+        }
+        
+        div.sticky {
+            position: sticky;
+            border: 3px solid rgb(19, 51, 77);
+        }
+        
+        div.first {
+            background-color: aqua;
+            opacity: 0.1;
+        }
+        
+        div.second {
+            background-color: aqua;
+            opacity: 0.3;
+        }
+        
+        div.third {
+            background-color: aqua;
+            opacity: 0.5;
+        }
+        
+        div.fourth {
+            background-color: aqua;
+            opacity: 0.8;
+        }
+        
+        div.fifth {
+            background-color: aqua;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>POSITIONING</h1>
+    <div>
+        No position property
+    </div>
+    <br><br><br>
+    <div class="sticky">
+        Sticky positioning
+    </div>
+    <br><br><br>
+    <div class="relative">
+        Relative positioning
+    </div>
+    <br><br><br>
+    <div class="absolute">
+        Absolute positioning
+    </div>
+    <br><br><br>
+    <div class="fixed">
+        Fixed positioning
+    </div>
+    <br><br><br>
+    <div class="static">
+        Static positioning
+    </div>
+    <div class="first">0.1</div>
+    <div class="second">0.3</div>
+    <div class="third">0.5</div>
+    <div class="fourth">0.8</div>
+    <div class="fifth">1</div>
+</body>
+
+</html>
